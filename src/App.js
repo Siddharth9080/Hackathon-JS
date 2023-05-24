@@ -6,10 +6,11 @@ import {MdLibraryMusic} from 'react-icons/md';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Artists from './Pages/Artishts';
 import Songs from './Pages/Songs';
-import PlayerHighOnLife from './Pages/PlayerHighOnLife';
+import PlayerHighOnLife from './Pages/Player';
 import HighOnLife from './Components/CoverImages/HighOnLife.jpg';
 import higherground from './Components/CoverImages/HigherGround.jpg';
 import HighOnLifeAudio from './Components/Audio/HighOnLife.mp3'
+import HigherGroundAudio from './Components/Audio/HigherGround.mp3'
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
             <Route path='/artists' element={<Artists/>}/>
             <Route path='/songs' element={<Songs/>}/>
             <Route path='/highonlife' element={<PlayerHighOnLife image={HighOnLife} Name="High On Life" Artist="Martin Garrix, Bonn" music={HighOnLifeAudio}/> }/>
+            <Route path='/highonlife' element={<PlayerHighOnLife image={HighOnLife} Name="High On Life" Artist="Martin Garrix, Bonn" music={HighOnLifeAudio}/> }/>
+            <Route path='/higherground' element={<PlayerHighOnLife image={higherground} Name="Higher Ground" Artist="Martin Garrix, John Martin" music={HigherGroundAudio}/> }/> 
           </Routes>
         </div>
       </BrowserRouter>

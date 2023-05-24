@@ -1,0 +1,40 @@
+.PlayerDiv{
+    position: absolute;
+    top:7vh;
+    left:15vw;
+    height:93vh;
+    width:85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContainer{
+    height:700px;
+    width:420px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
+.P{
+    text-align: center;
+    margin: 0;
+}
+button{
+    width:48%;
+    margin: 1%;
+    height:50px;
+    background-color: transparent;
+    border:0;
+    border: 1px solid rgb(187, 239, 223);
+    border-radius: 10px;
+}
+.Icon{
+    color: rgb(187, 239, 223);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.title{
+    margin:10px;
+}

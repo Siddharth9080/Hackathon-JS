@@ -1,0 +1,18 @@
+
+.Containar{
+    height: 310px;
+    width:256px;
+}
+.Name{
+    color: black;
+    opacity: 1;
+    margin: 3px;
+}
+.artist{
+    color: black;
+    opacity: 0.75;
+    margin:3px;
+}
+.CoverImage{
+    border-radius:10px;
+}

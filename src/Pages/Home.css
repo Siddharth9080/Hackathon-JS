@@ -1,0 +1,26 @@
+.tableOfMoojik{
+    position:absolute;
+    top:7.5vh;
+    left: 15vw;
+    width:85vw;
+    text-align:center;
+    padding:10px;
+} 
+.TR{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+    height: 340px;
+  }
+@media (max-width:1230px) {
+    .tableOfMoojik{
+        position:absolute;
+        top:7.5vh;
+        left:0vw;
+        right: 0vw;
+        width:100vw;
+        text-align:center;
+        padding:10px;
+    }
+}

@@ -1,0 +1,42 @@
+.SongsContainer{
+    height: 93vh;
+    width:85vw;
+    position: absolute;
+    top:7vh;
+    left: 15vw;
+}
+ul{
+    list-style-type: none;
+}
+.Songs{
+    height:200px;
+    width:80%;
+    margin-left:8%;
+    border:solid 1px rgb(187, 239, 223);
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius:10px;
+}
+h2{
+    margin: 3px;
+    font-size:40px;
+}
+p{
+    margin: 3px;
+    font-size:20px;
+}
+.Text{
+    margin: 40px;
+}
+@media(max-width: 1240px) {
+    .SongsContainer{
+        height: 93vh;
+        width:100vw;
+        position: absolute;
+        top:7vh;
+        left: 0;
+    }
+  }

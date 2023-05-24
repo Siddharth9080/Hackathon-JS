@@ -1,0 +1,15 @@
+.Container{
+    height:7vh;
+    width:100vw;
+    background-color: rgb(187,239,223);
+    display: flex;
+    position: fixed;
+    top: 0vh;
+    z-index: 100;
+}
+.Logo{
+    height: 7vh;
+    width: 6.5vw;
+    position:absolute;
+    left: 0%;
+}

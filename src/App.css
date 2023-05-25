@@ -6,7 +6,7 @@ font-family: 'Lora', serif;
   position: fixed;
   top: 7vh;
   left: 0vw;
-  background-color: black;
+  background-color: #000;
   height: 93vh;
   width: 15vw; 
   text-decoration: none;
@@ -31,6 +31,10 @@ font-family: 'Lora', serif;
 }
 .barItem{
   text-decoration: none;
+  color: white;
+}
+.barItem:hover{
+  color: rgb(187, 239, 223);
 }
 *{
   font-weight: 100;
@@ -39,7 +43,7 @@ Link{
   color: white;
   text-decoration: none;
 }
-link:hover{
+Link:hover{
   color: rgb(187, 239, 223);
 }
 *{

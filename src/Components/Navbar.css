@@ -13,3 +13,25 @@
     position:absolute;
     left: 0%;
 }
+.hamburgericon{
+    color: black;
+    font-size: 40px;
+    opacity: 0;
+}
+.right{
+    height: 7vh;
+    width: 7vh;
+    position: absolute;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:1230px) {
+    .hamburgericon{
+        opacity: 1;
+    }    
+}
+.hamburgericon:hover{
+    color: rgb(60, 60, 60);
+}

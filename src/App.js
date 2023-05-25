@@ -31,7 +31,6 @@ function App() {
             <Route path='/artists' element={<Artists/>}/>
             <Route path='/songs' element={<Songs/>}/>
             <Route path='/highonlife' element={<PlayerHighOnLife image={HighOnLife} Name="High On Life" Artist="Martin Garrix, Bonn" music={HighOnLifeAudio}/> }/>
-            <Route path='/highonlife' element={<PlayerHighOnLife image={HighOnLife} Name="High On Life" Artist="Martin Garrix, Bonn" music={HighOnLifeAudio}/> }/>
             <Route path='/higherground' element={<PlayerHighOnLife image={higherground} Name="Higher Ground" Artist="Martin Garrix, John Martin" music={HigherGroundAudio}/> }/> 
           </Routes>
         </div>
